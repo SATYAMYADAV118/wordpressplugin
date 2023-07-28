@@ -1,0 +1,64 @@
+/* chatgpt.css */
+
+/* Customize the styling to match your website's design */
+
+/* Chatbot container */
+#chatbot {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Chat messages */
+  #chat-output {
+    margin-bottom: 10px;
+  }
+  
+  /* User input form */
+  #chat-form {
+    display: flex;
+  }
+  
+  #user-input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #user-input:focus {
+    outline: none;
+  }
+  
+  #chat-form button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Chat messages styling */
+  .chat-user {
+    text-align: right;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .chat-response {
+    text-align: left;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
